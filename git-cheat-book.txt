@@ -1,0 +1,26 @@
+------------------------------------------------------------
+## git-cheat-book ## written by josh gomez
+------------------------------------------------------------
+
+1. undo 1 commit from history
+# git reset --hard HEAD~1
+
+
+2. commit with last reset commit msg
+# git commit -c ORIG_HEAD
+
+
+3. set local branch to track remote branch
+# git branch -u remotes/origin/R3-dev
+
+
+4. go-back to a previous commit in history by going to head detached state
+# git checkout <commit-id>
+
+           
+5. go-back to a previous commit in history by reverting current branch
+# git reset --hard <commit-id>
+
+
+6. stop local branch from tracking remote branch
+# git branch --unset-upstream

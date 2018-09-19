@@ -1,0 +1,12 @@
+---------------------------------------
+## ubuntu terminal cheat book ##
+---------------------------------------
+
+1. Search for a keyword
+# grep -irn <search-key> .
+
+2. Search a file
+# find <path> -iname <file-name>
+
+3. Shutdown pc
+# poweroff
