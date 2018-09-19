@@ -1,6 +1,6 @@
----------------------------------------
-## ubuntu terminal cheat book ##
----------------------------------------
+-----------------------------------------------------
+## ubuntu terminal cheat book ## written by josh-gm3z
+-----------------------------------------------------
 
 1. Search for a keyword
 # grep -irn <search-key> .
