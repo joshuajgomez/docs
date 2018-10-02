@@ -25,5 +25,5 @@
 6. stop local branch from tracking remote branch
 # git branch --unset-upstream
 
-7. set origin remote
+7. set remote origin
 # git remote add origin <remote-url>  
