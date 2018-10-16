@@ -27,3 +27,7 @@
 
 7. set remote origin
 # git remote add origin <remote-url>  
+
+
+8. change editor 
+# git config --global core.editor "nano"
