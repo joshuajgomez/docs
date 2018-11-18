@@ -1,0 +1,7 @@
+Creating live template for method parameters
+
+1. create live template with value
+Loggy.log(Log.INFO, "$FORMAT$");
+
+2. define variable $FORMAT$
+groovyScript("_1.collect { it + ' = [\" + ' + it + ' + \"]'}.join(', ')", methodParameters())
